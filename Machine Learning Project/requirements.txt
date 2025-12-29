@@ -1,0 +1,5 @@
+tensorflow
+numpy
+streamlit
+streamlit-drawable-canvas
+opencv-python-headless
