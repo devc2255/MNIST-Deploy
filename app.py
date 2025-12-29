@@ -16,7 +16,7 @@ from streamlit_drawable_canvas import st_canvas
 # 1. Load the model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('mnist_model.h5')
+    return tf.keras.models.load_model('mnist_model.h5', compile=False)
 
 model = load_model()
 
